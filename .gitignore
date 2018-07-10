@@ -1,0 +1,25 @@
+*.iml
+.gradle
+/local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+*.class
+*.dex
+*.apk
+*.ap_
+bin/
+gen/
+local.properties
+Thumbs.db
+.idea
+.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+build/
+.navigation
+captures/
+output.json
+obj/
