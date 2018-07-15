@@ -2,9 +2,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="madskills.callrecorder.DisplayContactPicker">
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:launchMode="singleTop"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"/>
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/menu_refresh"
+        app:showAsAction="never"
+        android:title="Refresh"/>
+    <item
+        android:id="@+id/save"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:title="Save"
+        app:showAsAction="ifRoom" />
 </menu>
